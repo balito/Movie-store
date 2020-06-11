@@ -7,17 +7,16 @@ using namespace std;
 
 int main()
 {
-    system("chcp 1251");
 	Store f;
 	int c;
 	string s;
 	do{
-		cout << "0. Изход от програмата" << endl;
-		cout << "1. Отпечатване на данните на Филмите" << endl;
-		cout << "2. Добавяне на филм" << endl;
-		cout << "3. Изтриване на филм" << endl;
-		cout << "4. Отпечатване на данните на филм" << endl;
-		cout << "5. Отпечатване на всички налични филми"<<endl;
+		cout << "0. Exit application" << endl;
+		cout << "1. Print out all the movie information" << endl;
+		cout << "2. Add a Movie" << endl;
+		cout << "3. Delete a Movie" << endl;
+		cout << "4. Print out movie by ID" << endl;
+		cout << "5. Print only the movies that are in Stock"<<endl;
 		cout <<""<<endl;
 		cin >> c;
 		switch(c)
