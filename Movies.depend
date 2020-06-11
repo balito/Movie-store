@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1554902474 source:e:\oop\movies\store.cpp
+	"store.h"
+	<iostream>
+	<cstring>
+	<fstream>
+
+1554716852 e:\oop\movies\store.h
+	<string>
+	"movie.h"
+
+1554909621 e:\oop\movies\movie.h
+	"store.h"
+	<string>
+
+1554909875 source:e:\oop\movies\main.cpp
+	<iostream>
+	<locale>
+	<windows.h>
+	"movie.h"
+	"store.h"
+
+1554909840 source:e:\oop\movies\movie.cpp
+	"movie.h"
+	<iostream>
+	<cstring>
+
+1591884067 source:c:\users\baliot\downloads\billy\movies\store.cpp
+	"store.h"
+	<iostream>
+	<cstring>
+	<fstream>
+
+1591884067 c:\users\baliot\downloads\billy\movies\store.h
+	<string>
+	"movie.h"
+
+1591884067 c:\users\baliot\downloads\billy\movies\movie.h
+	"store.h"
+	<string>
+
+1591884068 source:c:\users\baliot\downloads\billy\movies\main.cpp
+	<iostream>
+	<locale>
+	<windows.h>
+	"movie.h"
+	"store.h"
+
+1591884068 source:c:\users\baliot\downloads\billy\movies\movie.cpp
+	"movie.h"
+	<iostream>
+	<cstring>
+
